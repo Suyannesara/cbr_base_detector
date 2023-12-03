@@ -5,4 +5,4 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.yaml")
 
 # Use the model 
-results = model.train(data="local_config.yaml", epochs=3)
+results = model.train(data="local_config.yaml", epochs=2)
