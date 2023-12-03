@@ -24,5 +24,3 @@ inference.Stream(
     use_main_thread=True, # for opencv display
     on_prediction=on_prediction, 
 )
-
-# FnAosgap8GA71UdZAMxd
