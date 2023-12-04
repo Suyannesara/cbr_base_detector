@@ -1,7 +1,0 @@
-path: '/content/gdrive/MyDrive/Colab Notebooks/cbr_base_yolo_training/data' # dataset root dir
-train: images/train  # train images (relative to 'path')
-val: images/train  # val images (relative to 'path')
-
-# Classes
-names:
-  0: cbr_base
