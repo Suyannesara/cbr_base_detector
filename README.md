@@ -1,8 +1,8 @@
-### 🤖 CBR Base Detector
+### 🤖 CBR drone landing pad Detector
 
-This repository aims to detect the CBR base used in OBR.
+This repository aims to detect the drone landing pad used in CBR (Brazilian Robtics Competition).
 
-_Use the base_images folder to get the cbr_base images to test these samples_
+_Use the pad_images folder to get the cbr landing pad images to test these samples_
 
 #### 1. Detection Model
 
@@ -29,7 +29,7 @@ python predict_video.py
 ```
 
 A generated video will be found in `./videos` folder with the detections running.
-This folder also contains a base video with the cbr_base appearing. You can use it, or, make your own video and substitute the one using same name and extension "base.mp4" in order to test it.
+This folder also contains a base video with the cbr_pad appearing. You can use it, or, make your own video and substitute the one using same name and extension "base.mp4" in order to test it.
 
 ### 2. Roboflow Integration
 
